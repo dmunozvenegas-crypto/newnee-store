@@ -1,0 +1,164 @@
+*{
+    /* text-align:center; */
+    box-sizing:border-box;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.shadow{
+    box-shadow: 5px 10px #888888;
+}
+
+
+/* from my online store you can get get a wide range of products. */
+.icon{
+    
+    height:45px;
+    width:95px;
+    
+    border-radius:2px;
+    position:relative;
+}
+#main{
+    viewport-fit: 100%;
+    width: 84.6%;
+    margin-left: 14.4%;
+    padding-top:1px;
+    
+}
+
+/* this code chunk for the ul assigns these property and values */
+ul, .ul2{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    
+}
+/* code for second navbar */
+.ul2{
+    overflow:hidden;
+    background-color:#333;
+    width:100%;
+    position:relative;
+    padding-bottom:2px;
+}
+
+
+
+
+/* li2 code for second navbar*/
+
+.li2{
+    text-align:center;
+    float:left;
+    border-right:1px solid #bbb;
+}
+ .a2{
+    padding:8px;
+    background-color:#dddddd;
+}
+
+.li2 .a2{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul{
+    border: 1px solid #555;
+    background-color:#f1f1f1;
+    margin-left:0;
+    width:14%;
+    height:100%;
+    position: fixed;
+    overflow:auto;
+}
+
+span{
+    font-weight:bolder;
+}
+
+li a {
+    text-align: center;
+    display: block;
+    color: #000;
+    
+    padding:10px 20px;
+    text-decoration:none;
+    font-size: 16px;
+    
+}
+
+li:last-child{
+    border-bottom: none;
+    
+}
+
+/* to give space to bottom item  */
+.last{
+    padding-bottom: 40px;
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+
+li a:hover:not(.active){
+    background-color: #555;
+    color: white;
+    
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.title{
+    text-align:center;
+    width:90%;
+    margin:18px;
+    padding:8px
+    
+}
+
+.box{
+    display:inline-block;
+    width: 23.5%;
+    height:100%;
+    
+}
+.shoes{
+    margin-left:65px;
+    width:250px;
+    height:400px;
+   
+    
+    /* height:250px; */
+    border-radius: 2%;
+}
+
+.glasses-clothes{
+    margin-left:55px;
+    width:16.5em;
+    height:25em;
+    /* height:250px; */
+    border-radius: 2%;
+
+}
+
+.red-shoe{
+    text-align:center;
+    color:aquamarine;
+    display:block
+}
