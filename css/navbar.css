@@ -2,7 +2,9 @@
     /* text-align:center; */
     box-sizing:border-box;
     font-family:'Courier New', Courier, monospace;
-    outline: 3px solid lightgreen;
+    outline: 3px solid lightgreen; 
+    padding:0;
+    margin:0;
 
 }
 
@@ -17,16 +19,16 @@
     border-radius:2px;
     position:relative;
 }
-#main{
+/* #main{
     
     width: 85.6%;
     margin-left: 14.4%;
     padding-top:1px;
     
-}
+} */
 
 /* this code chunk for the ul assigns these property and values */
-ul, .ul2{
+ul {
     list-style-type: none;
     margin: 0;
     padding:0;
@@ -131,17 +133,15 @@ li a:hover:not(.active){
 }
 
 .box{
-    display:inline-block;
-    width: 23.5%;
-    height:100%;
+    /* display:inline-block; */
+    width: 252px;
+    /* height:100%; */
     
 }
 .shoes{
-    margin-left:65px;
+    /* margin-left:65px; */
     width:250px;
     height:400px;
-   
-    
     /* height:250px; */
     border-radius: 2%;
 }
@@ -168,5 +168,29 @@ li a:hover:not(.active){
     width:4rem;
     height:5.25rem;
 
+}
+
+.image{
+    position:absolute;
+}
+
+.box4-container{
+    display:flex;
+}
+
+#main_wrapper_1{
+display:flex;
+width:100%;
+padding: 20px;
+}
+
+#main_wrapper_1 > div{
+    margin-right:12px;
+    
+}
+
+
+#main_wrapper_2{
+    display:flex;
 }
 
